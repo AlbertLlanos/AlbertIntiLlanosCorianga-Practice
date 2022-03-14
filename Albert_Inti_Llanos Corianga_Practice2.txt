@@ -1,0 +1,74 @@
+Practice2
+Nombre: Albert Inti Llanos COrianga
+
+//en practice2(Consola 1)
+
+(PASO 1)
+git init
+echo "read file" > README.txt
+git add .
+git commit -m "added readme file"
+git branch develop
+git checkout develop
+
+(PASO 3)
+git branch
+git merge feature1
+
+(PASO 5)
+git branch
+git merge feature2
+
+(PASO 6)
+git branch
+git merge feature3
+
+
+
+//en practice2_Clone(Consola 2)
+
+(PASO 2)
+mkdir practice2_Clone
+cd practice2_Clone
+git clone /d/codingtask/Practice2
+cd Practice2
+git branch feature1
+git checkout feature1
+echo "read file" > feature1.txt
+git add .
+git commit -m "added feature1.txt"
+git push origin feature1
+
+(PASO 4)
+git checkout develop
+git pull origin develop
+git branch feature2
+git branch feature3
+git checkout feature2
+echo "read file" > feature2.txt
+git add .
+git commit -m "added feature2.txt"
+git push origin feature2
+
+(Paso 6)
+git checkout develop
+git pull origin develop
+git checkout feature3
+echo "read file" > feature3.txt
+git add .
+git commit -m "added feature3.txt"
+git push origin feature3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
